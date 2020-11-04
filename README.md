@@ -1,5 +1,7 @@
 ![Tests](https://github.com/leightonthomas/validation-bundle/workflows/Tests/badge.svg?branch=master)
 
+Symfony bundle for [`leightonthomas/validation`](https://github.com/leightonthomas/validation).
+
 # Installation
 
 Make sure Composer is installed globally, as explained in the
