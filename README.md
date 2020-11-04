@@ -42,7 +42,7 @@ return [
 ```
 
 # Adding custom rule checkers
-Custom rule checkers can be added by tagging them with the `lt_validation.checker` tag (or the relevant PHP constant at `\LeightonThomas\ValidationBundle\DependencyInjection\Compiler\CheckerPass::TAG'`).
+Custom rule checkers can be added by tagging them with the `lt_validation.checker` tag (or the relevant PHP constant at `\LeightonThomas\ValidationBundle\DependencyInjection\Compiler\CheckerPass::TAG`).
 
 ## Example
 ```yaml
