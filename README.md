@@ -1,3 +1,5 @@
+![Tests](https://github.com/leightonthomas/validation-bundle/workflows/Tests/badge.svg?branch=master)
+
 # Installation
 
 Make sure Composer is installed globally, as explained in the
