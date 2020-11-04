@@ -1,0 +1,40 @@
+services:
+  _defaults:
+    autowire: true
+
+  _instanceof:
+    LeightonThomas\Validation\Checker\Checker:
+      tags:
+        - name: !php/const LeightonThomas\ValidationBundle\DependencyInjection\Compiler\CheckerPass::TAG
+
+  LeightonThomas\Validation\ValidatorFactory: ~
+
+  LeightonThomas\Validation\Checker\Arrays\IsArrayChecker: ~
+
+  LeightonThomas\Validation\Checker\Arrays\IsDefinedArrayChecker: ~
+
+  LeightonThomas\Validation\Checker\Combination\ComposeChecker: ~
+
+  LeightonThomas\Validation\Checker\Combination\IntersectionChecker: ~
+
+  LeightonThomas\Validation\Checker\Combination\UnionChecker: ~
+
+  LeightonThomas\Validation\Checker\Object\IsInstanceOfChecker: ~
+
+  LeightonThomas\Validation\Checker\Scalar\Numeric\IsGreaterThanChecker: ~
+
+  LeightonThomas\Validation\Checker\Scalar\Numeric\IsLessThanChecker: ~
+
+  LeightonThomas\Validation\Checker\Scalar\Strings\LengthChecker: ~
+
+  LeightonThomas\Validation\Checker\Scalar\Strings\RegexChecker: ~
+
+  LeightonThomas\Validation\Checker\Scalar\IsScalarChecker: ~
+
+  LeightonThomas\Validation\Checker\AnythingChecker: ~
+
+  LeightonThomas\Validation\Checker\CallbackChecker: ~
+
+  LeightonThomas\Validation\Checker\StrictEqualsChecker: ~
+
+

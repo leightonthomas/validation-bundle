@@ -1,0 +1,35 @@
+{
+    "name": "leightonthomas/validation-bundle",
+    "description": "Symfony bundle for leightonthomas/validation.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leightonthomas",
+            "email": "leighton.thomas@vivait.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LeightonThomas\\ValidationBundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\LeightonThomas\\ValidationBundle\\": "tests"
+        }
+    },
+    "require": {
+        "leightonthomas/validation": "^0.2",
+        "symfony/dependency-injection": "^4.4",
+        "symfony/http-kernel": "^4.4",
+        "php": "^7.4",
+        "symfony/config": "^4.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4",
+        "symfony/phpunit-bridge": "^5.1",
+        "nyholm/symfony-bundle-test": "^1.6",
+        "matthiasnoback/symfony-dependency-injection-test": "^4.2"
+    }
+}
