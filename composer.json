@@ -20,11 +20,11 @@
         }
     },
     "require": {
-        "leightonthomas/validation": "^0.2",
-        "symfony/dependency-injection": "^4.4",
-        "symfony/http-kernel": "^4.4",
-        "php": "^7.4",
-        "symfony/config": "^4.4"
+        "leightonthomas/validation": "^0.3",
+        "symfony/dependency-injection": "^3.4 || ^4.4",
+        "symfony/http-kernel": "^3.4 || ^4.4",
+        "php": "^7.4 || ^8.0",
+        "symfony/config": "^3.4 || ^4.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.4",
